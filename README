@@ -1,0 +1,3 @@
+This project is to test aspectj maven compiler.
+Project is configured to do compile time weaving.
+Project has a Null Parameter checking aspect.
