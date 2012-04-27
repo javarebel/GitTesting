@@ -16,6 +16,12 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.naveen.maven.research.annotations.NotNull;
 import org.naveen.maven.research.annotations.NotNullPolicy;
 
+/**
+ * Aspect to process NotNull annotation.
+ * 
+ * @author <a href='mailto:naveensisupalan@yahoo.com'>Naveen Sisupalan</a>
+ *
+ */
 @Aspect
 public class NotNullAspect {
 	

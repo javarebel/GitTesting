@@ -5,6 +5,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Annotation to mark parameter which have to checked for null.
+ * 
+ * @author <a href='mailto:naveensisupalan@yahoo.com'>Naveen Sisupalan</a>
+ *
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.PARAMETER)
 public @interface NotNull {
